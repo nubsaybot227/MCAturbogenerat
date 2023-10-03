@@ -23,6 +23,38 @@
     white-space: nowrap;
 }
 
+.new{
+    position: absolute;
+
+    left: 92.7%;
+    top: 2%;
+
+    color: #000;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3vw;
+
+    color: #000000;
+}
+.old{
+    position: absolute;
+
+    left: 96.5%;
+    top: 2%;
+
+    color: #000;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3vw;
+
+    color: #000000;
+
+}
+
 .logoMCA {
     position: absolute;
 
