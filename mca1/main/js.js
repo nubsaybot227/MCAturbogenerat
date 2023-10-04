@@ -91,3 +91,27 @@ function windowOp(){
 function windowCl(){
     document.querySelector(".adresDiv").style.opacity = 0;
 }
+
+document.getElementById("cont1").onmousemove = windowOp1;
+document.getElementById("cont1").onmouseleave = windowCl1;
+
+
+function windowOp1(){
+    document.querySelector(".contDiv").style.opacity = 1;
+}
+
+function windowCl1(){
+    document.querySelector(".contDiv").style.opacity = 0;
+}
+
+document.getElementById("manager1").onmousemove = windowOp2;
+document.getElementById("manager1").onmouseleave = windowCl2;
+
+
+function windowOp2(){
+    document.querySelector(".managerDiv").style.opacity = 1;
+}
+
+function windowCl2(){
+    document.querySelector(".managerDiv").style.opacity = 0;
+}

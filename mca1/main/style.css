@@ -23,43 +23,6 @@
     white-space: nowrap;
 }
 
-
-.new{
-    position: absolute;
-
-    left: 92.7%;
-    top: 2%;
-
-    color: #000;
-
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.3vw;
-
-    color: #000000;
-}
-.old{
-    position: absolute;
-
-    
-    left: 96.5%;
-    top: 2%;
-
-
-
-    color: #000;
-
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.3vw;
-
-
-    color: #000000;
-
-}
-
 .logoMCA {
     position: absolute;
 
@@ -365,12 +328,14 @@
 
     font-family: 'Rubik', sans-serif;
 
-    font-size: 1.7vh;
+    font-size: 2.2vh;
     font-style: normal;
     font-weight: 400;
 
-    top: 49%;
-    left: 1%;
+    transform: translate(-50%);
+
+    top: 8%;
+    left: 50%;
 }
 
 .d-tel1{
@@ -379,8 +344,10 @@
     width: 17.2vh;
     height: 4vh;
 
-    left: 21%;
-    top: 20%;
+    transform: translate(-50%);
+
+    top: 30%;
+    left: 48.8%;
 }
 
 .tel1 {
@@ -407,8 +374,6 @@
     font-weight: 400;
 
     
-    transform: translate(-50%);
-    left: 50%;
     white-space: nowrap;
     top: 50%;   
 }
@@ -432,7 +397,32 @@
 }
 
 .contDiv{
-    display: none;
+    position: absolute;
+
+    opacity: 0;
+
+    width: 20vw;
+    height: 21vh;
+
+    top: -260%;
+
+    left: 14.5%;
+
+    transform: translate(-50%);
+
+    background-image: url(img/imgWindow.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+
+    transition: 0.4s;
+}
+
+#cont1{
+    cursor: pointer;
+}
+
+#manager1{
+    cursor: pointer;
 }
 
 .adresDiv{
@@ -457,7 +447,24 @@
 }
 
 .managerDiv{
-    display: none;
+    position: absolute;
+
+    opacity: 0;
+
+    width: 20vw;
+    height: 21vh;
+
+    top: -260%;
+
+    left: 85%;
+
+    transform: translate(-50%);
+
+    background-image: url(img/imgWindow.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+
+    transition: 0.4s;
 }
 
 .manager {
@@ -485,11 +492,15 @@
 
     font-family: 'Rubik', sans-serif;
 
-    font-size: 2vh;
+    font-size: 2.5vh;
     font-style: normal;
     font-weight: 400;
 
-    top: 50%;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+
+    white-space: nowrap;
 }
 
 .tel3 {
@@ -499,12 +510,13 @@
 
     font-family: 'Rubik', sans-serif;
 
-    font-size: 1.7vh;
+    font-size: 2.2vh;
     font-style: normal;
     font-weight: 400;
 
-    top: 20%;
-    left: 86%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .alecksey{
